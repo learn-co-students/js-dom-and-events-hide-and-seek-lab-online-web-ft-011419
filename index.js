@@ -3,6 +3,7 @@ function getFirstSelector(selector){
 }
 
 function nestedTarget(){
+<<<<<<< HEAD
   return document.querySelector('#nested .target')
 }
 
@@ -19,4 +20,7 @@ function deepestChild(){
     grandNode = grandNode.children[0];
   }
   return grandNode
+=======
+  return document.querySelector('.target, #nested')
+>>>>>>> 29fb13dac4ccc0cda205296f96a1a52e9f7062af
 }
